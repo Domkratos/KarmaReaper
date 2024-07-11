@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir praw discord.py python-dotenv
 
 # Run the bot script when the container launches
-CMD ["python", "./bot.py"]
+CMD ["python", "./reaper.py"]
